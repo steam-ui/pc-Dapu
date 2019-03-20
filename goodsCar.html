@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/goodsCar.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header>
+        <img src="img/logo.png">
+    </header>
+    <!-- 购物车 -->
+    <article>
+        <div class="article">
+            <span>我的购物车</span>
+            <span>清空购物车</span>
+        </div>
+        <table cellpadding="0px" cellspacing="0px">
+            <tr class="message">
+                <td><input type="checkbox"></td>
+                <td>商品信息</td>
+                <td>商品单价</td>
+                <td>商品数量</td>
+                <td>小计</td>
+                <td>操作</td>
+            </tr>
+            <!-- <tr >
+                <td><input type="checkbox"></td>
+                <td class="goodsContent">
+                    <div class="goodsLeft">
+                        <img src="img/15087477559.png">
+                    </div>
+                    <div class="goodsRight">
+                        <p class="goodsName">四件套</p>
+                        <p>颜色：<span class="goodsColor">深灰</span>尺寸：<span class="goodsSize">1.8米床</span></p>
+                    </div> 
+                 </td>
+                <td>￥<span>599</span></td>
+                <td>
+                    <span class="countLeft">-</span>
+                    <span class="countCenter">3</span>
+                    <span class="countRight">+</span>
+                </td>
+                <td>￥<span>599</span></td>
+                <td><span id="removeGoods">删除</span></td>
+            </tr>  -->
+        </table>
+        <p class="goodsMoney">共计商品<span id="totalcount">2</span>件,合计￥<span id="totalmoney">1438</span><span class="getMoney">去付款</span></p>
+    </article>
+</body>
+</html>
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/goodsCar.js"></script>

@@ -1,0 +1,150 @@
+
+body,html,ul,li,table,img,p,dl,dd,h1,h2,h3,h4,h5,h6,form{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style:none;
+}
+body{
+    background: #efefef;
+}
+/* 头部 */
+header{
+    width:100%;
+    height:90px;
+    background: #fff;
+}
+article{
+    width:1200px;
+    background: #fff;
+    margin:10px auto;
+}
+.article{
+    display:flex;
+    justify-content:space-between;
+}
+.article span{
+    font-size:16px;
+    font-weight: 700;
+}
+
+.article span:nth-of-type(1){
+   margin: 20px 0px 15px 17px;
+}
+
+.article span:nth-of-type(2){
+   margin: 20px 17px 15px 0px;
+}
+
+/* table */
+table{
+    width:1170px;
+    text-align: center;
+    font-size:16px;
+    vertical-align: middle;
+    margin:10px auto;
+    padding-bottom: 20px;
+}
+
+table td{
+     border:1px solid #eee;
+
+}
+.message td{
+    text-align: center;
+    line-height:30px;
+}
+
+.goodsLeft img{
+    width:80px;
+    height:80px;
+    margin-top: 14px;
+    margin-bottom: 10px;
+}
+.goodsLeft{
+    float:left;
+    margin-left:28px;
+    margin-right:40px;
+}
+
+.goodsRight{
+    font-size:14px;
+    float:left;
+}
+
+.goodsName{
+    margin-top:25px;
+    margin-bottom:5px;
+}
+
+.countLeft{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 42px;
+    display:inline-block;
+    width:30px;
+    height:42px;
+    border:1px solid #eee;
+    margin-right: -5px;
+}
+
+.countCenter{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 42px;
+    display: inline-block;
+    width:60px;
+    height:44px;
+    border:1px solid #eee;
+    box-sizing: border-box;
+}
+
+.countRight{
+    text-align: center;
+    vertical-align: middle;
+    line-height:42px;
+    display:inline-block;
+    width:30px;
+    height:42px;
+    border:1px solid #eee;
+    margin-left: -5px;
+}
+
+.removeGoods{
+    display:inline-block;
+    width:60px;
+    height:50px;
+    background: #dc3545;
+    color:#fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius:6px;
+    cursor: pointer;
+}
+
+.goodsMoney{
+    font-size:15px;
+    margin-left: 800px;
+    padding-bottom: 30px;
+}
+
+.getMoney{
+    display: inline-block;
+    width:75px;
+    height:38px;
+    background: #dc3545;
+    color:#fff;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 6px;
+    margin-left:15px;
+}
+
+.goodsColor{
+    margin-right: 10px;
+}

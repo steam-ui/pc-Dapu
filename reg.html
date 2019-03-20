@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reg.css">
+</head>
+<body>
+    <!-- 登录注册 -->
+    <header>
+        <div class="headerLeft">
+            <a href="#"><img src="img/logo.png"></a>
+        </div>
+        <div class="headerRight">
+            <input type="text" placeholder="想要买什么">
+            <span><a href="#">登录&nbsp&nbsp|&nbsp&nbsp</a><a href="#">注册</a></span>
+        </div>
+    </header>
+    <!-- 注册 -->
+    <div class="content">
+        <div class="contentRight">
+            手机号：<input  id="phone" class="contentRightG" type="text"><span class="contentRightF"></span><br/>
+            <p class="contentRightResult"></p>
+            图片码：<input type="text"><span class="contentRightB">2456</span><span class="contentRightA">获取短信码</span><br/>
+            <p class="contentRightC">请先输入图片验证码的计算结果，再点击获取短信码</p>
+            短信码：<input type="text"><br/>
+            密码：&nbsp&nbsp&nbsp<input type="text" class="contentRightE">
+                <div class="contentRightD">
+                    <span>弱</span>
+                    <span>中</span>
+                    <span>强</span>
+                </div><br/>
+            确认密码：<input id="repassUser"  type="text"><span id="reInfo"></span><br/>
+            <p><input  id="contentRightE" type="checkbox">同意注册协议《大朴用户协议》</p>
+            <input id="btn" type="button" value="注册">&nbsp&nbsp我已经注册，现在就<a href="#">登录</a>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/ajaxtools.js"></script>
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/reg.js"></script>
+

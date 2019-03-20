@@ -1,0 +1,139 @@
+body,html,ul,li,table,img,p,dl,dd,h1,h2,h3,h4,h5,h6,form{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style:none;
+}
+
+body{
+    margin:0 auto;
+    width:1200px;
+}
+
+/* 登录注册 */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    line-height: 73px;
+}
+
+.headerRight{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerRight input{
+    display: block;
+    width:211px;
+    height:30px;
+    background: #eeeeee;
+    border:0;
+    text-indent: 10px;
+    background: url(../img/search.png) no-repeat 180px 2px;
+    background-color: #eeeeee;
+    margin-right: 120px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.headerRight span{
+    display: block;
+    width:100px;
+    height:36px;
+    line-height: 36px;
+    margin-right: 20px;
+    background: #b1544f;
+    text-align: center;
+}
+
+.headerRight span a{
+    color:#fff;
+}
+
+/* 注册 */
+.content{
+    height:500px;
+    background: url("../img/background.jpg") no-repeat 0px 0px;
+    background-size:100% 100%;
+    position: relative;
+}
+
+.contentRight{
+    border-radius: 5px;
+    width:544px;
+    height:440px;
+    background: #fff;
+    position: absolute;
+    top:28px;
+    right:15px;
+    padding-left:48px;
+    opacity:.9;
+}
+
+.contentRight input{
+    width:184px;
+    height:26px;
+    margin-top:20px;
+    outline:none;
+}
+.contentRight input:nth-of-type(1){
+    margin-top: 50px;
+}
+.contentRightuser{
+    width:544px;
+    height:50px;
+    line-height:50px;
+    font-size: 24px;
+    color:#897c75;text-align: center;
+    font-weight: 700;
+    border-bottom: 2px solid #897c75;
+
+}
+
+#btnId{
+    width:54px;
+    height:31px;
+    background: #449eb7;
+    border-radius:5px;
+    outline: none;
+    color:#fff;
+    margin-left:63px;
+}
+
+.contentRightF{
+    color:#449eb7;
+    margin-left: 5px;
+    font-size:12px;
+}
+.contentRightPhone {
+    margin-top: 23px;
+    margin-left: 65px;
+}
+.contentRightPhone a{
+    font-size:12px;
+    color:black;
+}
+.contentRight:nth-of-type(2){
+    display:none;
+}
+
+#getMessage{
+    display: inline-block;
+    width:100px;
+    height:34px;
+    background: #eee;
+    opacity: .9;
+    border:1px solid #eee;
+    text-align: center;
+   line-height: 34px;
+   margin-left: 3px;
+   border-radius: 4px;
+}

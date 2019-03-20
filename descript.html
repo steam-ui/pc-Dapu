@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/descript.css">
+</head>
+<body>
+    <!-- 登录注册 -->
+    <header>
+        <div class="headerLeft">
+            <a href="#"><img src="img/logo.png"></a>
+        </div>
+        <div class="headerRight">
+            <input type="text" placeholder="想要买什么">
+            <span><a href="#">登录&nbsp&nbsp|&nbsp&nbsp</a><a href="#">注册</a></span>
+        </div>
+    </header>
+    <!-- 导航栏 -->
+    <nav>
+        <ul class="nav">
+    
+            <li>
+                <a id="navC" href="#">首页</a>
+            </li>
+    
+            <li class="navA">
+                <a href="#">卧室用品</a>
+                <ul class="navB">111</ul>
+            </li>
+    
+            <li class="navA">
+                <a href="#">冠军毛巾</a>
+                <ul class="navB">222</ul>
+            </li>
+    
+            <li class="navA">
+                <a href="#">袜子拖鞋</a>
+                <ul class="navB">333</ul>
+            </li>
+    
+            <li class="navA">
+                <a href="#">服饰</a>
+                <ul class="navB">444</ul>
+            </li>
+    
+            <li class="navA">
+                <a href="#">清洁日用</a>
+                <ul class="navB">555</ul>
+            </li>
+            <li class="navA">
+                <a href="#">贴身衣物</a>
+                <ul class="navB">666</ul>
+            </li>
+    
+            <li class="navA">
+                <a href="#">婴童用品</a>
+                <ul class="navB">777</ul>
+            </li>
+    
+            <li class="navA">
+                <a href="#">包袋/周边</a>
+                <ul class="navB">888</ul>
+            </li>
+    
+            <li class="navA">
+                <a href="#">渠道客户</a>
+                <ul class="navB">999</ul>
+            </li>
+    
+            <li class="navd">
+                <a href="#">关于大朴</a>
+            </li>
+        </ul>
+   
+    </nav>
+    <!-- 商品信息 -->
+    <article>
+        <div class="articleLeft">
+            <div id="bigBox">
+                <div id="mirrorBox"></div>
+                <div id="showBox"></div>
+            </div>
+             <ul id="imgList">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <div class="articleLeftBottom">
+                <img src="img/shoucang.png">
+                <img src="img/fenxiang.png">
+            </div>
+        </div>
+        <div class="articleRight">
+            <p class="articleName">天然新疆棉四件套</p>
+            <p class="articleId">商品编号：<span id="goodsId">001</span></p>
+            <p class="articlePrice">￥<span id="goodsPrice">969</span></p>
+            <p class="vipPrice"><span>会员价</span><span>￥921</span><a>如何成为会员</a></p>
+            <p class="vipSection"><span>促销</span><span>元旦活动满三件7折</span></p>
+            <div class="articleCount">
+                <div>
+                    <p class="articleCountA">6</p>
+                    <p>销量</p>
+                </div>
+                <div>
+                    <p class="articleCountB">0</p>
+                    <p>用户评论数</p>
+                </div>
+                <div>
+                    <p class="articleCountC">1938</p>
+                    <p>评论送积分</p>
+                </div>
+            </div>
+        <p class="articleFont">采用纯棉精梳60支纱和40支纱，300根梭织工艺。面料经过丝光、预缩等处理，面料光泽好，强力高，手感柔软丝滑。</p>
+       
+        <div class="cands">
+            <p class="articleColor">颜色：<span id="goodscolor">夜影</span> <span>韶颜</span></p>
+            <p class="articleSize">尺寸：<span id="goodssize">1.5米床</span> <span>1.8米床</span></p>
+        </div>  
+        <div class="articleShu">数量：<img id="jian" src="img/jian.jpg"><span class="articleShuling">0</span><img id="jia" src="img/jia.jpg"><span>尺码助手</span></div>
+       <div class="addgood">
+            <div class="goodsCar"><a href="goodsCar.html"><img  src="img/addgood.png"></a></div>
+            <div class="phoneSao">"扫一扫"手机购买<img class="shoujixiazai" src="img/shoujixiazai.png"></div>
+       </div>    
+    </div>
+</article>
+</body>
+</html>
+<script src="js/index.js"></script>
+<script src="js/cookieTools.js"></script>
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/descript.js"></script>
+<script>
+    window.onload=function(){
+        //商品列表展示
+        showlist();
+    }
+</script>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/entry.css">
+</head>
+<body>
+    <!-- 登录注册 -->
+    <header>
+        <div class="headerLeft">
+            <a href="#"><img src="img/logo.png"></a>
+        </div>
+        <div class="headerRight">
+            <input type="text" placeholder="想要买什么">
+            <span><a href="#">登录&nbsp&nbsp|&nbsp&nbsp</a><a href="#">注册</a></span>
+        </div>
+    </header>
+    <!-- 注册 -->
+    <div class="content">
+        <div class="contentRight" id="contentUser">
+            <p class="contentRightuser">用户登录</p>
+            用户名：<input class="contentRightG" type="text"><span class="contentRightF"></span><br />
+            密码：&nbsp&nbsp&nbsp<input type="text" class="contentRightE"><br/>
+            <input  id="btnId"  type="button" value="登录"><a href="#" class="contentRightF">忘记密码</a></br>
+            <p class="contentRightPhone"><a  id="phoneEntry">手机校验登录</a>&nbsp|&nbsp<a href="#">免费注册</a></p>
+        </div>
+
+        <div class="contentRight" id="contentPhone"> 
+            <p class="contentRightuser">手机登录</p>
+            手机号码：&nbsp &nbsp<input class="contentRightG" type="text"><span class="contentRightF"></span><br />
+            图片验证码：<input type="text" class="contentRightE"><br/>
+            手机短信码：<input type="text" class="contentRightE"><span id="getMessage">获取短信码</span><br/>
+            <input  id="btnId"  type="button" value="登录"></br>
+            <p class="contentRightPhone"><a id="userEntry">普通登录</a>&nbsp|&nbsp<a href="#">免费注册</a></p>
+        </div>
+    </div>
+</body>
+</html>
+<script src="js/ajaxtools.js"></script>
+<script src="js/cookieTools.js"></script>
+<script src="js/jquery-1.8.3.js"></script>
+<script src="js/entry.js"></script>

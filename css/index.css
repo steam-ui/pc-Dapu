@@ -1,0 +1,671 @@
+body,html,ul,li,table,img,p,dl,dd,h1,h2,h3,h4,h5,h6,form{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style:none;
+}
+
+body{
+    margin:0 auto;
+    width:1200px;
+}
+
+/* 登录注册 */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    line-height: 73px;
+}
+
+.headerRight{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerRight input{
+    display: block;
+    width:211px;
+    height:30px;
+    background: #eeeeee;
+    border:0;
+    text-indent: 10px;
+    background: url(../img/search.png) no-repeat 180px 2px;
+    background-color: #eeeeee;
+    margin-right: 120px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.headerRight span{
+    display: block;
+    width:100px;
+    height:36px;
+    line-height: 36px;
+    margin-right: 20px;
+    background: #b1544f;
+    text-align: center;
+}
+
+.headerRight span a{
+    color:#fff;
+}
+
+
+/* 导航栏 */
+ .nav{
+        position:relative;
+        height:40px;
+    }
+    .nav li{
+        float:left;
+        height:40px;
+        line-height:40px;
+        text-align: center;
+    }
+
+    .nav li a{
+        color:black;
+        font-size:14px;
+        display: inline-block;
+        width:100px;
+        background:url("../img/dian.png") no-repeat 97px 15px;
+    }
+
+   .nav li a:nth-last-child(1){
+       background: none;
+   }
+
+   #navC{
+        background:url("img/dian.png") no-repeat 97px 15px;
+   }
+
+   .navB{
+       position:absolute;
+       left:0px;
+       top:40px;
+       height:268px;
+       width:100%;
+       display:none;
+       z-index:1;
+       background:#fff;
+   }
+
+
+   /* 轮播图 */
+   .picture{
+       width:100%;
+       height:450px;
+       overflow: hidden;
+   }
+
+   /* 精选 */
+   .content{
+       width:100%;
+       height:73px;
+       line-height:73px;
+       text-align:center;
+       font-size: 22px;
+       font-weight:800;
+   }
+
+   .goodsListA{
+       float:left;
+       width:397px;
+       height:328px;
+       position: relative;
+       overflow: hidden;
+       margin-right:2px;
+   }
+
+   .goodsImg{
+       width:400px;
+   }
+
+   .goodsImg:hover{
+       transform: scale(1.3);
+       transition: all 1s;
+   }
+   .goodsContentA{
+        width:380px;
+        height:130px;
+        margin-left:10px;
+        background: #eeeeee;
+        position: absolute;
+        left:3px;
+        top:200px;
+   }
+    .goodsContent{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .goodsContentLeft{
+        width:120px;
+        height:45px;
+        display:flex;
+        justify-content: space-between;
+        margin-top:8px;
+        margin-left: 12px;
+    }
+    .goodsContentLeft img{
+        width:40px;
+        height:40px;
+        border-radius: 50%;
+    }
+    .goodsContentLeftB img{
+        width:10px;
+        height:10px;
+    }
+
+    .goodsContentLeftA p:nth-of-type(1){
+        font-size:10px;
+        font-weight:900;
+        margin-bottom:5px;
+    }
+
+     .goodsContentCenter{
+         line-height: 45px;
+     }
+    .goodsContentCenter img{
+       
+        width:14px;
+        height:12px;
+    }
+    .goodsContentRight{
+        width:120px;
+        height:45px;
+        display: flex;
+        justify-content: space-between;
+        line-height: 45px;
+        margin-right: 18px;
+    }
+    .goodsContentRightA img{
+        width:14px;
+        height:9px;
+    }
+
+    .goodsContentRightB img{
+        width:12px;
+        height:12px;
+    }
+    .goodsContentRightC img{
+        widows: 10px;
+        height:10px;
+    }
+
+    .jingxuanB span:nth-of-type(1){
+        display: inline-block;
+        width:5px;
+        height:16px;
+        background: #76c5af;
+        margin:15px 13px 0px 18px;
+
+    }
+
+    .jingxuanB p{
+        font-size: 12px;
+    }
+
+
+    /* 秋冬新品 */
+    .newGoodsListA{
+        width:395px;
+        height:293px;
+        position: relative;
+        float: left;
+        margin-right:2px;
+    }
+
+    .newGoodsListA img{
+        width:395px;
+        height:293px;
+    }
+    .newGoodsListAp{
+        height:76px;
+        width:395px;
+        text-align: center;
+        font-size:14px;
+        position: absolute;
+        left:00px;
+        top:293px;
+        background: #fff;
+        display:none;
+    }
+    .newGoodsListAb{
+        width:104px;
+        height:26px;
+        font-size:13px;
+        opacity:.6;
+        position: absolute;
+        left:23px;
+        top:244px;
+        background:#fff;
+        line-height: 26px;
+        text-align: center;
+    }
+    .newGoodsListAp p:nth-of-type(1){
+        margin-top:10px;
+    }
+
+    .newGoodsListA:hover .newGoodsListAp{
+       transform: translateY(-76px);
+       transition: all 2s;
+       display: block;
+    }
+    .reGoodsAleft{
+        width:238px;
+        height:475px;
+        position: relative;
+        float: left;
+    }
+
+    .reGoodsAleft img{
+        width:238px;
+        height:475px;
+    }
+
+    .reGoodsAleftp {
+        width:238px;
+        height:55px;
+        text-align: center;
+        position: absolute;
+        left:0;
+        top:420px;
+        background:#fff;
+        opacity:0;
+    }
+     .reGoodsAleftp p:nth-of-type(1){
+         margin-top: 7px;
+         margin-bottom: 4px;
+     }
+
+     .reGoodsAleft:hover .reGoodsAleftp{
+        opacity:1;
+        transition: all 1s;
+     }
+
+     .reGoodsAcenter{
+         width:710px;
+         height:475px;
+         display: flex;
+         justify-content: space-between;
+         flex-wrap: wrap;
+     }
+
+     .reGoodsAcenterLeft{
+         width:473px;
+         height:237px;
+         position: relative;
+     }
+
+     .reGoodsAcenterLeft img{
+        width:472px;
+        height:237px;
+     }
+
+      .reGoodsAcenterLeftp {
+        width:472px;
+        height:54px;
+        text-align: center;
+        position: absolute;
+        left:0;
+        top:183px;
+        background:#fff;
+        opacity:0;
+    }
+     .reGoodsAcenterLeftp p:nth-of-type(1){
+         margin-top: 7px;
+         margin-bottom: 4px;
+     }
+    .reGoodsAcenterLeft:hover .reGoodsAcenterLeftp{
+        opacity:1;
+        transition: all 1s;
+     }
+
+    .reGoodsAcenterRight{
+        width:235px;
+        height:237px;
+        position:relative;
+    }
+
+    
+     .reGoodsAcenterRight img{
+        width:235px;
+        height:237px;
+    }
+
+    .reGoodsAcenterRightp{
+        width:235px;
+        height:54px;
+        text-align: center;
+        position: absolute;
+        left:0;
+        top:183px;
+        background:#fff;
+        opacity:0;
+    }
+     .reGoodsAcenterRightp p:nth-of-type(1){
+         margin-top: 7px;
+         margin-bottom: 4px;
+     }
+      .reGoodsAcenterRight:hover .reGoodsAcenterRightp{
+        opacity:1;
+        transition: all 1s;
+     }
+
+     .reGoodsAright{
+         width:238px;
+         height:475px;
+         position: relative;
+         float:left;
+         top: -475px;
+        left: 950px;
+     }
+
+     .reGoodsAright img{
+         width:238px;
+         height:475px;
+     }
+
+      .reGoodsArightp {
+        width:238px;
+        height:55px;
+        text-align: center;
+        position: absolute;
+        left:0;
+        top:420px;
+        background:#fff;
+        opacity:0;
+    }
+
+     .reGoodsArightp p:nth-of-type(1){
+         margin-top: 7px;
+         margin-bottom: 4px;
+     }
+     .reGoodsAright:hover .reGoodsArightp{
+        opacity:1;
+        transition: all 1s;
+     }
+     .reGoodsBottomA{
+         position: absolute;
+         top:1924px;
+         width:1200px;
+         display: flex;
+         justify-content: space-between;
+     }
+     .reGoodsBottom{
+         width:238px;
+         height:238px;
+         position: relative;
+         margin-top:2px;
+     }
+
+     .reGoodsBottom img{
+        width:238px;
+        height:238px;
+        position: absolute;
+        left:0px;
+        top:0px;
+     }
+     
+     .reGoodsBottomp{
+        width:238px;
+        height:50px;
+        text-align: center;
+        position: absolute;
+        left:0;
+        top:188px;
+        background:#fff;
+        opacity:0;
+     }
+
+     .reGoodsBottomp p:nth-of-type(1){
+         margin-top: 7px;
+         margin-bottom: 4px;
+     }
+
+      .reGoodsBottom:hover .reGoodsBottomp{
+        opacity:1;
+        transition: all 1s;
+     } 
+
+     /* 底部 */
+     footer{
+         position: absolute;
+         top:2180px;
+         background:#eeeeee;
+         height:290px;
+         width:1200px;
+       
+     }
+
+     .footerA{
+         padding-top: 22px;
+        display: flex;
+        justify-content: space-around;
+     }
+
+     .footer{
+         width:125px;
+         height:156px;
+         text-align: center;
+        
+     }
+     .footer img{
+         width:126px;
+         height:126px;
+     }
+     .footerB{
+         text-align: center;
+         line-height:30px;
+         color:#6b6b6b;
+     }
+     .footerB a{
+        color:black;
+     }
+
+     .footerB p:nth-of-type(3){
+         background: url("../img/dapu_icon-police.png") no-repeat 495px 7px;
+     }
+
+     /* 右侧边栏 */
+     .rightList{
+         width:40px;
+         height:430px;
+         position: fixed;
+         top:0px;
+         right:0px;
+         opacity:.9;
+     }
+
+     .rightListA{
+         margin-top: 90px;
+         width:40px;
+         height:40px;
+         position: relative;
+     }
+
+     .rightListA span{
+         display: inline-block;
+         width:40px;
+         height:40px;
+         background: #b1544f;
+         color:#fff;
+         text-align: center;
+         position: absolute;
+         left:0px;
+         top:0px;
+         line-height: 40px;
+         display: none;
+         font-size:14px;
+     }
+
+     .rightListB{
+        width:40px;
+        height:40px;
+        position: relative;
+        margin-top:15px;
+     }
+
+     .rightListB span{
+        display: inline-block;
+        width:40px;
+        height:50px;
+        background: #b1544f;
+        color:#fff;
+        text-align: center;
+        position: absolute;
+        left:0px;
+        top:0px;
+        line-height:22px;
+        font-size:14px;
+        display: none;
+    }
+
+    .rightListC{
+        width:40px;
+        height:40px;
+        position: relative;
+        margin-top:15px;
+     }
+
+     .rightListC span{
+        display: inline-block;
+        width:40px;
+        height:50px;
+        background: #b1544f;
+        color:#fff;
+        text-align: center;
+        position: absolute;
+        left:0px;
+        top:0px;
+        line-height:40px;
+        font-size:13px;
+        display: none; 
+    }
+
+    .rightListD{
+        width:40px;
+        height:40px;
+        position: relative;
+        margin-top:15px;
+    }
+
+    .rightListD span{
+        display: inline-block;
+        width:40px;
+        height:50px;
+        background: #b1544f;
+        color:#fff;
+        text-align: center;
+        position: absolute;
+        left:0px;
+        top:0px;
+        line-height:40px;
+        font-size:13px;
+        display: none;
+    } 
+
+    .rightListD img:nth-of-type(2){
+        position: absolute;
+        left:-110px;
+        top:-10px;
+        display: none;
+    }
+
+
+    .rightListE{
+        width:40px;
+        height:40px;
+        position: relative;
+        margin-top:15px;
+    }
+
+    .rightListE span{
+        display: inline-block;
+        width:40px;
+        height:50px;
+        background: #b1544f;
+        color:#fff;
+        text-align: center;
+        position: absolute;
+        left:0px;
+        top:0px;
+        line-height:40px;
+        font-size:13px;
+        display: none;
+    } 
+
+    .rightListE img:nth-of-type(1){
+        width:30px;
+        height:40px;
+        margin-left:7px;
+    }
+
+    .rightListE img:nth-of-type(2){
+        position: absolute;
+        left:-110px;
+        top:-10px;
+        display: none; 
+    }
+
+    .rightListF{
+        width:40px;
+        height:40px;
+        position: relative;
+        margin-top:25px;
+    }
+
+    .rightListF span{
+        display: inline-block;
+        width:40px;
+        height:50px;
+        background:#b1544f;
+        color:#fff;
+        text-align: center;
+        position: absolute;
+        left:0px;
+        top:0px;
+        line-height:20px;
+        font-size:14px;
+        display: none; 
+    }
+    .rightListA:hover span{
+        display: block;
+    }
+
+    .rightListB:hover span{
+        display: block;
+    }
+     
+    .rightListC:hover span{
+        display: block;
+    }
+
+    .rightListD:hover span{
+        display: block;
+    }
+    .rightListD:hover img:nth-of-type(2){
+        display: block;
+    }
+
+    .rightListE:hover span{
+        display: block;
+    }
+
+    .rightListE:hover .rightListG{
+        display: block;
+    }
+
+    .rightListF:hover span{
+        display: block;
+    }
+

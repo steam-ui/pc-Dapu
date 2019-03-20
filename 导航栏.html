@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    ul li{
+        list-style: none;
+        text-align: center;
+    }
+    a{
+        text-decoration: none;
+    }
+    .nav{
+        position:relative;
+    }
+    .nav li{
+        float:left;
+    }
+
+    .nav li a{
+        font-size:14px;
+        display: inline-block;
+        width:100px;
+        background:url("img/dian.png") no-repeat 95px 5px;
+    }
+
+   .nav li a:nth-last-child(1){
+       background: none;
+   }
+
+   #navC{
+        background:url("img/dian.png") no-repeat 95px 5px;
+   }
+
+   .navB{
+       position:absolute;
+       left:0px;
+       top:47px;
+       height:268px;
+       width:100%;
+       display:none;
+   }
+    </style>
+</head>
+<body>
+   <nav>
+      <ul class="nav">
+
+            <li>
+                <a id="navC"  href="#">首页</a>
+            </li>
+
+            <li class="navA">
+                <a href="#">卧室用品</a>
+                <ul class="navB">111</ul>
+            </li>
+
+            <li class="navA">
+                <a href="#">冠军毛巾</a>
+                <ul class="navB">222</ul>
+            </li>
+
+            <li class="navA">
+                <a href="#">袜子拖鞋</a>
+                <ul class="navB">333</ul>
+            </li>
+
+            <li class="navA">
+                <a href="#">服饰</a>
+                <ul class="navB">444</ul>
+            </li>
+
+            <li class="navA">
+                <a href="#">清洁日用</a>
+                <ul class="navB">555</ul>
+            </li>
+            <li class="navA">
+                <a href="#">贴身衣物</a>
+                <ul class="navB">666</ul>
+            </li>
+
+            <li class="navA">
+                <a href="#">婴童用品</a>
+                <ul class="navB">777</ul>
+            </li>
+
+            <li class="navA">
+                <a href="#">包袋/周边</a>
+                <ul class="navB">888</ul>
+            </li>
+
+            <li class="navA">
+                <a href="#">渠道客户</a>
+                <ul class="navB">999</ul>
+            </li>
+
+            <li class="navA">
+                <a href="#">关于大朴</a>
+            </li>
+      </ul>
+   </nav> 
+</body>
+</html>
+<script src="js/tools.js"></script>
+<script>
+    var liDom=$(".navA");
+    var divDom=$(".navB");
+    for(var i=0;i<liDom.length;i++){
+        liDom[i].index=i;
+        liDom[i].onmouseover=function(){
+           for(var j=0;j<divDom.length;j++){
+               divDom[j].style.display="none";
+           } 
+           divDom[this.index].style.display="block";
+        }
+    }
+
+    $(".nav")[0].onmouseout=function(){
+         for (var j = 0; j < divDom.length; j++) {
+            divDom[j].style.display = "none";
+        } 
+    }
+</script>

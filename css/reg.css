@@ -1,0 +1,158 @@
+body,html,ul,li,table,img,p,dl,dd,h1,h2,h3,h4,h5,h6,form{
+	margin:0;
+	padding:0;
+}
+a{
+	text-decoration: none;
+}
+
+ul{
+	list-style:none;
+}
+
+body{
+    margin:0 auto;
+    width:1200px;
+}
+
+/* 登录注册 */
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 73px;
+    line-height: 73px;
+}
+
+.headerRight{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerRight input{
+    display: block;
+    width:211px;
+    height:30px;
+    background: #eeeeee;
+    border:0;
+    text-indent: 10px;
+    background: url(../img/search.png) no-repeat 180px 2px;
+    background-color: #eeeeee;
+    margin-right: 120px;
+    border-radius: 3px;
+    outline: none;
+}
+
+.headerRight span{
+    display: block;
+    width:100px;
+    height:36px;
+    line-height: 36px;
+    margin-right: 20px;
+    background: #b1544f;
+    text-align: center;
+}
+
+.headerRight span a{
+    color:#fff;
+}
+
+/* 注册 */
+.content{
+    height:500px;
+    background: url("../img/background.jpg") no-repeat 0px 0px;
+    background-size:100% 100%;
+    position: relative;
+}
+
+.contentRight{
+    border-radius: 5px;
+    width:544px;
+    height:440px;
+    background: #fff;
+    position: absolute;
+    top:28px;
+    right:15px;
+    padding-left:48px;
+}
+
+.contentRight input{
+    width:184px;
+    height:26px;
+    margin-top:20px;
+    margin-left:5px;
+    outline:none;
+}
+
+.contentRight input:nth-of-type(2){
+    width:88px;
+}
+
+.contentRightB{
+    display: inline-block;
+    margin:0px 5px;
+    width:60px;
+    height:28px;
+    text-align: center;
+    line-height: 28px;
+    background:#b1544f;
+}
+
+.contentRightA{
+    display: inline-block;
+    width:79px;
+    height:28px;
+    background: #c2c2c2;
+    line-height:28px;
+    text-align: center;
+    font-size:12px;
+    border:2px solid gray;
+}
+
+.contentRightResult{
+    margin-left:60px;
+}
+.contentRightC{
+   margin-left:60px;
+   margin-top:15px;
+}
+
+ .contentRightD{
+    margin-left:5px;
+    display: inline-block;
+    width:179px;
+    height:37px;
+    position: absolute;
+    top:212px;
+    left:300px;
+} 
+ 
+.contentRightD span{
+    display: inline-block;
+    width:57px;
+    text-align: center;
+    line-height: 30px;
+}
+
+#contentRightE{
+    width:15px;
+    height:15px;
+    margin-left:70px;
+}
+
+.act{
+    color:orangered;
+    border-bottom: 2px solid red;
+}
+
+#btn{
+    width:200px;
+     margin-left:70px;
+}
+
+.contentRight a{
+    color:red;
+}
+
+
